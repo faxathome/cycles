@@ -16,6 +16,8 @@ gem 'puma', '~> 3.7'
 gem 'bootstrap', '~> 4.1.3'
 # jquery
 gem 'jquery-rails'
+# Font Awesome
+gem "font-awesome-rails"
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
