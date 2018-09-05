@@ -41,12 +41,13 @@
   </head>
 
   <body>
-    <h1>Welcome to Cycles</h1>
-    <p>This will be the welcome page</p>
-    <%= yield %>
+    <%= render 'layouts/navigation' %>
 
-    <footer>
-      <p>&copy; Cycles 2018</p>
-    </footer>
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <%= render 'layouts/footer' %>
+
   </body>
 </html>
