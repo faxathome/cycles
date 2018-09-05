@@ -1,24 +1,16 @@
-# README
+# Cycles
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a special project
 
 Things you may want to cover:
 
-* Ruby version
+* Rails
 
-* System dependencies
+* Heroku
 
-* Configuration
+* Bootstrap
 
-* Database creation
+* Devise
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+-- September 2018
