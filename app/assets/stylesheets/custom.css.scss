@@ -1,4 +1,49 @@
+// here You'll include changes to the bootstrap default css
+
+// Color codes:
+
+// #233140 -> Black
+// #c82333 -> Red
+
+$baseFontFamily: Poppins, sans-serif  !default;
+
 @import "bootstrap";
+
+
+/* navbar */
+.navbar {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-expand-lg {
+  margin : 0 !important;
+}
+
+/* logo */
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color:#c82333;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+/* Body */
+
+body {
+  // font-family: 'Poppins', sans-serif;
+}
+
+header {
+  padding-bottom: 25px;
+}
 
 /* footer */
 
