@@ -41,19 +41,16 @@
   </head>
 
   <body>
+
     <header>
       <%= render 'layouts/navigation' %>
     </header>
 
-
     <section class="container">
-      <div id="flash">
-        <% flash.each do |key, value| %>
-          <div class="flash alert <%= alert_class(key) %>"><%= value %></div>
-        <% end %>
-      </div>
+      <%= render 'layouts/flash_messages' %>
 
       <%= yield %>
+
     </section>
 
     <%= render 'layouts/footer' %>
