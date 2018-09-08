@@ -30,8 +30,8 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <% if signed_in? %>
-          <li><%= link_to "Meal Plans", "#" %></li>
-          <li><%= link_to "Recipes", "#" %></li>
+          <li><%= link_to "Link 1", "#", class: "nav-link" %></li>
+          <li><%= link_to "Link 2", "#", class: "nav-link" %></li>
           <li><%= link_to('Logout', destroy_user_session_path,
                 class: 'btn btn-xs btn-danger', title: 'Logout', :method => :delete) %></li>
         <% else %>
