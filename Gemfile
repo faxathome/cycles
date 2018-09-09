@@ -11,6 +11,7 @@ gem 'rails', '~> 5.1.6'
 # Devise
 gem 'devise'
 gem 'sendgrid-ruby'
+gem 'tinymce-rails'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Bootstrap

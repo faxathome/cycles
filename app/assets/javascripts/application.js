@@ -11,6 +11,7 @@
 // about supported directives.
 //
 //= require particles.min
+//= require tinymce
 //= require jquery3
 //= require popper
 //= require bootstrap-sprockets
