@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Lifepaths</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Path number</th>
+      <th>Body</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @lifepaths.each do |lifepath| %>
+      <tr>
+        <td><%= lifepath.path_number %></td>
+        <td><%= lifepath.body %></td>
+        <td><%= link_to 'Show', lifepath %></td>
+        <td><%= link_to 'Edit', edit_lifepath_path(lifepath) %></td>
+        <td><%= link_to 'Destroy', lifepath, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Lifepath', new_lifepath_path %>

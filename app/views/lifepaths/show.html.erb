@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Path number:</strong>
+  <%= @lifepath.path_number %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @lifepath.body %>
+</p>
+
+<%= link_to 'Edit', edit_lifepath_path(@lifepath) %> |
+<%= link_to 'Back', lifepaths_path %>

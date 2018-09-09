@@ -1,0 +1,27 @@
+<%= form_with(model: lifepath, local: true) do |form| %>
+  <% if lifepath.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(lifepath.errors.count, "error") %> prohibited this lifepath from being saved:</h2>
+
+      <ul>
+      <% lifepath.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :path_number %>
+    <%= form.text_field :path_number, id: :lifepath_path_number %>
+  </div>
+
+  <div class="field">
+    <%= form.label :body %>
+    <%= form.text_area :body, id: :lifepath_body %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

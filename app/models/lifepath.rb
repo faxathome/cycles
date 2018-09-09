@@ -1,0 +1,2 @@
+class Lifepath < ApplicationRecord
+end

@@ -1,27 +1,31 @@
 <div class="panel">
   <div class="container">
     <div class="jumbotron">
-      <h1 class="display-4">Hello, world!</h1>
-      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+      <h1 class="display-5">Hola!</h1>
+      <p class="lead">Consulta tu número personal.</p>
       <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-      </p>
-    </div>
-  </div>
+      <p>El Número Personal, o de Destino se calcula a partir de los números asociados a tu fecha de nacimiento (día, mes, y año)</p>
+      <div>
+        <%= form_tag root_path, method: :get, class: "form-group", remote: true do %>
+          <div class="row">
+            <div class="col-xs-2">
+              <%= date_field(
+                  :user,
+                  params[:born_on],
+                  class: "form-control"
+              ) %>
+            </div>
+          </div>
+          <p class="lead">
+         </p>
+         <div class="row">
+             <p class="lead">
+               <%= submit_tag "Consultar", class: "btn btn-primary btn-lg" %>
+             </p>
+         </div>
 
-  <div class="container">
-    <div class="card">
-      <div class="card-header">
-        Hello
-      </div>
-      <div class="card-body">
-        There
-      </div>
-      <div class="card-footer">
-        How are you
-      </div>
+        <% end %>
+     </div>
     </div>
   </div>
 </div>

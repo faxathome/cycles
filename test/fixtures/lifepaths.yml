@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  path_number: 9.99
+  body: MyText
+
+two:
+  path_number: 9.99
+  body: MyText
