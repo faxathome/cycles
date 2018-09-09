@@ -18,4 +18,38 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background: #345678;
+  margin: 0;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  // position: absolute;
+  position: fixed;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  // background-color: #345678;
+  // background-image: url("");
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: 50% 50%;
+}
+
+.panel{
+   position: absolute;
+   margin-top: 5%;
+   margin-bottom: 5%;
+   margin-left: auto;
+   margin-right: auto;
+   left: 50;
+   right: 50;
 }

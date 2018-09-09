@@ -1,14 +1,15 @@
 // here You'll include changes to the bootstrap default css
 
 // Color codes:
-
 // #233140 -> Black
 // #c82333 -> Red
 
+// Your variable overrides
 $baseFontFamily: Poppins, sans-serif  !default;
+// $body-bg:               #345678 !default;
 
+// Bootstrap and its default variables
 @import "bootstrap";
-
 
 /* navbar */
 .navbar {
@@ -40,6 +41,8 @@ $baseFontFamily: Poppins, sans-serif  !default;
 body {
   // font-family: 'Poppins', sans-serif;
 }
+
+
 
 header {
   padding-bottom: 25px;
